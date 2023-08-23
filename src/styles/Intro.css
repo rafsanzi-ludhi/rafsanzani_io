@@ -1,0 +1,36 @@
+/* CSS Variables for easy theme management */
+:root {
+    --lightest-slate: #F5F5F5;
+    /* I assumed some colors, replace with your own */
+    --green-bright: #2ECC71;
+    --slate: #7B8D93;
+    --lightest-navy: #2C3E50;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    min-height: 100vh;
+}
+
+
+
+.intro-container {
+    padding: 15px;
+    padding-top: 5px;
+    font-size: 72px;
+    text-align: center;
+}
+
+.ut-dialogue {
+    color: var(--lightest-slate);
+}
+
+.intro-name {
+    color: #EE4266;
+    font-weight: bold;
+}
+
+
