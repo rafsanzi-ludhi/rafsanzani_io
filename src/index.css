@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 :root {
@@ -16,13 +19,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/** styles color of most the div elements */
+div {
+  color: rgb(241, 236, 236);
+}
+
+/** styles the links */
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #EE4266;
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #535bf2;
+  color: #fbfbfb;
 }
 
 body {
@@ -31,6 +41,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /** style background color for entire window  */
+  background-color: rgba(159, 156, 153, 0.424);
 }
 
 h1 {
@@ -49,9 +61,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -62,9 +76,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
