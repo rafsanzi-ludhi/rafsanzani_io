@@ -1,3 +1,4 @@
+/* CSS Variables for easy theme management */
 :root {
     --lightest-slate: #F5F5F5;
     /* I assumed some colors, replace with your own */
@@ -53,7 +54,7 @@
         align-items: center;
     }
 
-    .lottie-animation {
+   .lottie-animation {
         width: 15vw;
         height: 15vw;
     }

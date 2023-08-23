@@ -8,12 +8,62 @@
     padding-top: 5%;
 }
 
+.joblist-job-title {
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--lightest-slate);
+}
 
+.joblist-job-company {
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    color: var(--green-bright);
+    font-weight: bold;
+}
 
+.joblist-duration {
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    color: var(--slate);
+}
 
+#vertical-tabpanel {
+    margin-top: -28px;
+    padding-left: 25px;
+}
 
+.MuiTab-wrapper {
+    font-size: 16px;
+    text-align: left;
+    align-items: flex-start !important;
+    font-family: "NTR", sans-serif;
+}
 
+.MuiButtonBase-root {
+    outline: none !important;
+    color: var(--lightest-slate) !important;
+}
 
+.PrivateTabIndicator-colorSecondary-5 {
+    background-color: var(--green-bright) !important;
+}
+
+.jss5 {
+    background-color: var(--green-bright) !important;
+}
+
+.makeStyles-tabs-2 {
+    border-right: 1px solid var(--lightest-navy) !important;
+}
+
+#experience .MuiTab-root {
+    padding: 6px 20px;
+}
+
+.MuiButtonBase-root:focus {
+    color: var(--green-bright) !important;
+}
 
 ul {
     list-style: none;
@@ -54,3 +104,58 @@ ul {
 
 
 
+.cards {
+    max-width: 360px;
+    /* Setting a max width to the default style ensures it never exceeds this width on larger screens */
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        padding-left: unset;
+        padding-right: unset;
+        height: unset;
+        padding-top: 15%;
+    }
+
+    #projects-intro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        max-width: 90%;
+    }
+
+    .jss1 {
+        height: unset !important;
+        flex-direction: column !important;
+    }
+
+    .makeStyles-root-1 {
+        height: unset !important;
+        width: unset;
+        flex-direction: column;
+    }
+
+    .joblist-job-title {
+        font-size: 22px;
+    }
+
+    .joblist-job-company {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .cards {
+        width: 100%;
+    }
+
+   
+}

@@ -61,10 +61,10 @@
         max-width: 200px;
     }
 
-    .about-description {
-        min-width: 300px;
-        /* Adjust based on your design preference */
-    }
+         .about-description {
+             min-width: 300px;
+             /* Adjust based on your design preference */
+         }
 }
 
 /* Small devices */
