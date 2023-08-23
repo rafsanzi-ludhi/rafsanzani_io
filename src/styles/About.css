@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "NTR";
+    font-weight: 200;
+    font-display: fallback;
+    src: url("/fonts/NTR-Regular.ttf") format("truetype");
+}
+
+#about {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60vh;
+    padding-top: 80px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* This ensures space between image and description */
+}
+
+.about-description {
+    font-family: "NTR", sans-serif;
+    color: var(--slate);
+    max-width: 600px;
+    font-size: 1.7em;
+    text-align: justify;
+    margin: 0;
+}
+
+.about-description-techs {
+    margin-top: 1rem;
+}
+
+.about-image {
+    padding-left: 40px;
+}
+
+.about-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+}
+
+.intro-name {
+    color: #EE4266;
+    font-weight: bold;
+}
+
+.about-para-2 {
+    margin-top: 80px;
+}
+
+
+
+
+
+/* Hover effect */
