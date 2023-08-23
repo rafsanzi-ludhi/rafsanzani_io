@@ -13,12 +13,12 @@ function App() {
     <div className='App'>
       <div id='content'>
         <div className=' z-0'>
-          {/* <Intro></Intro> */}
+          <Intro></Intro>
         </div>
 
         {/* <div className='relative z-o'> */}
           
-            {/* <About></About> */}
+            <About></About>
             {/* <Projects></Projects> */}
             {/* <Toolkit></Toolkit> */}
             
