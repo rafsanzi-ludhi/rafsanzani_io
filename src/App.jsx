@@ -1,10 +1,10 @@
 import './App.css'
-import SidebarNav from "./components/SidebarNav";
+// import SidebarNav from "./components/SidebarNav";
 import Intro from "./components/Intro";
 import About from "./components/About";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 // import Experience from "./components/Experience";
-import Toolkit from "./components/Toolkit";
+// import Toolkit from "./components/Toolkit";
 
 
 function App() {
