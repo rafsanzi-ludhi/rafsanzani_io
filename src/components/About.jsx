@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/About.css";
-
+import Fade from "react-reveal/Fade";
+import headshot from '../assets/khadija-headshot.jpg'; // Import the image
+import Bounce from 'react-reveal/Bounce';
 
 
 function About() {
@@ -11,7 +13,6 @@ function About() {
       I am currently a Chemicals and Energy Engineering graduate from
       <span className="university-name"> The University of Leeds</span>  
       and have a keen interest in Software Development.
-
     </p>
   );
 
@@ -36,17 +37,22 @@ function About() {
     <div id="about">
       <div>
           <div className="ut-dialogue section-header">
+            <Bounce left duration={1000}>
               <div className="section-left">
                 <span className="section-subtitle">who am I?</span>
                 <span className="ut-heading">about me</span>
               </div>
+            </Bounce>
+            <Bounce right duration={1000}>
               <div className="section-right">
               <span className="section-number">01</span>
             </div>
             
+            </Bounce>
           </div>
         
         <div className="about-content">
+      <Fade bottom distance="75px" duration = {3000}>
             <div className="about-description ">
               {one}
               <div className="about-para-2">
@@ -57,6 +63,7 @@ function About() {
           <div className="about-image">
             <img src={headshot} alt="headshot"/> 
           </div>
+      </Fade>
         </div>
       </div>
     </div>

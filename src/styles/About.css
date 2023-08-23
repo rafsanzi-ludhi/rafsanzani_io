@@ -55,6 +55,63 @@
 
 
 
+/* Medium devices */
+@media only screen and (max-width: 1188px) {
+    .about-image img {
+        max-width: 200px;
+    }
 
+    .about-description {
+        min-width: 300px;
+        /* Adjust based on your design preference */
+    }
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+    #about {
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: unset;
+        height: unset;
+    }
+
+    .about-description {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+
+    .about-image {
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .about-image img {
+        margin-left: 0px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .react-reveal {
+        margin: 0px;
+    }
+
+    .university-name {
+        color: #EE4266;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+
+    .about-para-2 {
+        margin-top: 40px;
+    }
+}
 
 /* Hover effect */
