@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/About.css";
 import Fade from "react-reveal/Fade";
-// import headshot from '../assets/rafsanzani-headshot.jpg'; // Import the image
 import Bounce from 'react-reveal/Bounce';
 
 
@@ -10,9 +9,10 @@ function About() {
 
   const one = (
     <p className="ut-dialogue-1">
-      I am currently a Chemicals and Energy Engineering graduate from
-      <span className="university-name"> The University of Leeds</span>  
-      and have a keen interest in Software Development.
+      I am a recent Chemical and Energy Engineering graduate from
+      <span className="university-name"> The University of Leeds </span>  
+      with a keen interest in software development. 
+
     </p>
   );
 
@@ -55,13 +55,21 @@ function About() {
       <Fade bottom distance="75px" duration = {3000}>
             <div className="about-description ">
               {one}
+              {/* <div className="about-description-techs ut-dialogue"> */}
+              {/* {"Here are some technologies I have been working with recently:"} */}
+
+              {/* </div> */}
+              {/* <ul className="tech-stack ut-dialogue-1">
+                {tech_stack.map((tech_item, i) => (
+                  <li key={i}>{tech_item}</li>
+                ))}
+              </ul> */}
               <div className="about-para-2">
                 {two}
               </div>
             </div>
 
           <div className="about-image">
-            <img src={headshot} alt="headshot"/> 
           </div>
       </Fade>
         </div>
