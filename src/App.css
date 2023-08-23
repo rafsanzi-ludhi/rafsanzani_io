@@ -1,42 +1,161 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+  font-family: "NTR";
+  font-weight: 200;
+  font-display: fallback;
+  src: url("/fonts/NTR-Regular.ttf") format("truetype");
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Animation */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* ensure padding doesn't add to width */
+  overflow-x: hidden;
+  padding: 40px 24px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#content {
+  width: 100%;
+  /* Use percentage instead of vw */
+  box-sizing: border-box;
+  /* ensure padding doesn't add to width */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.rs-steps-horizontal .rs-steps-item-content {
+  text-align: left;
+}
+
+::selection {
+  background: var(--lightest-navy);
+  /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.card {
-  padding: 2em;
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
 }
 
-.read-the-docs {
-  color: #888;
+.section-header {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 42px;
+  /* max-width: 1000px; */
+  /* Use percentage instead of vw */
+  box-sizing: border-box;
+  /* ensure padding doesn't add to width */
+  justify-content: space-between;
+}
+
+/* ! style section left column */
+.section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* !style section right */
+.section-right {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  color: #ee4266;
+}
+
+/* .section-header::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin-top: 39px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--lightest-navy);
+} */
+
+.section-title {
+  font-family: "NTR", sans-serif;
+  color: var(--lightest-slate);
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  color: #EE4266;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    padding: 40px 24px;
+    box-sizing: border-box;
+    /* ensure padding doesn't add to width */
+  }
+
+  #content {
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    /* ensure padding doesn't add to width */
+  }
+
+  .section-header {
+    width: unset;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* ensure padding doesn't add to width */
+  }
+
+  .section-right {
+    display: flex;
+    align-items: flex-start;
+    color: #ee4266;
+    font-size: 30px;
+    /* reduce font size for mobile */
+
+  }
+
+  .section-title {
+    font-size: 28px;
+    /* reduce font size for mobile */
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    /* reduce font size for mobile */
+  }
 }

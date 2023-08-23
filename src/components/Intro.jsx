@@ -38,14 +38,14 @@ const Intro = () => {
                     <Lottie options={defaultOptions}
                         
                         className="lottie-animation" 
-                    />git pu
+                    />
                 </Bounce>
             )}
 
             <div className="intro-container">
                 <div className="ut-dialogue">hey there!</div>
                 <span className="ut-dialogue">
-                    <span className="ut-dialogue-name intro-name">khadija</span>
+                    <span className="ut-dialogue-name intro-name">Raf</span>
                     {" here :)"}
                 </span>
             </div>
