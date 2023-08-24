@@ -28,6 +28,12 @@
     margin: 0;
 }
 
+.university-name {
+    color: #EE4266;
+    font-weight: bold;
+    
+}
+
 .about-description-techs {
     margin-top: 1rem;
 }
