@@ -8,7 +8,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const Stars = (props) => {
   const ref = useRef();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(40000), { radius: 1.3 }));
+  const [sphere] = useState(() => random.inSphere(new Float32Array(40000), { radius: 1 }));
 
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 100;
@@ -16,12 +16,12 @@ const Stars = (props) => {
   });
 
   return (
-    <group rotation={[0, 0, Math.PI / 3.5]}>
+    <group rotation={[0, 0, Math.PI / 3]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
           color='#f272c8'
-          size={0.0025}
+          size={0.0022}
           sizeAttenuation={true}
           depthWrite={false}
         />
