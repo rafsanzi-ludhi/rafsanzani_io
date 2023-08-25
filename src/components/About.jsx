@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../styles/About.css";
 import Fade from "react-reveal/Fade";
 import Bounce from 'react-reveal/Bounce';
+import headshot from '../assets/rafsanzani-headshot.jpg'; // Import the image
+
 
 
 function About() {
@@ -69,7 +71,8 @@ function About() {
               </div>
             </div>
 
-          <div className="about-image">
+            <div className="about-image">
+              <img src={headshot} alt="A picture of me in my graduation gown" />
           </div>
       </Fade>
         </div>

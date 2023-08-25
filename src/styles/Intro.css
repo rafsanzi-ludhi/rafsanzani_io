@@ -19,6 +19,7 @@
     margin-bottom: 20px;
     width: 20vw;
     height: 20vw;
+    padding-left: 30%;
 }
 
 .intro-container {
@@ -26,6 +27,7 @@
     padding-top: 5px;
     font-size: 72px;
     text-align: center;
+    padding-right: 40%;
 }
 
 .ut-dialogue {
@@ -72,4 +74,17 @@
     .intro-name {
         font-size: 40px;
     }
+
+        .lottie-animation {
+            margin-bottom: 20px;
+            width: 20vw;
+            height: 20vw;
+        }
+    
+        .intro-container {
+            padding: 15px;
+            padding-top: 5px;
+            font-size: 72px;
+            text-align: center;
+        }
 }
