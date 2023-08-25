@@ -1,5 +1,5 @@
 import './App.css'
-// import SidebarNav from "./components/SidebarNav";
+import SidebarNav from "./components/SidebarNav";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -30,7 +30,7 @@ function App() {
         
         {/* <Experience></Experience> */}
       </div>
-      {/* <SidebarNav></SidebarNav> */}
+      <SidebarNav></SidebarNav>
       
     </div>
     
