@@ -26,36 +26,37 @@ If you're interested in exploring the portfolio's code or want to run it on your
 
 bash
 Copy code
-`git clone [YOUR_REPOSITORY_LINK]`
+`git clone git@github.com:rafsanzi-ludhi/rafsanzani_io.git`
 
 2. Navigate to the Directory
 
-bash
-Copy code
-cd path_to_directory
+bash - copy code:
+
+cd rafsanzani_io
 
 3. Install Dependencies
 
 To install all the required packages and libraries, run:
 
-Copy code
-npm install
+Terminal;
 
+`npm install
+`
 4. Create a Build
 
 Compile and optimize the portfolio for the best performance:
 
-arduino
-Copy code
+Terminal:
+
 npm run build
 
 5. Run the Portfolio
 
 Once the build is ready, you can start the portfolio using:
 
-sql
-Copy code
-npm start
+Terminal:
 
+`npm start
+`
 
 This will launch the portfolio on a local server. You can view it by going to http://localhost:3000/ (or whatever port is specified) in your browser.
