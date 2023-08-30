@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import calculator from "./calculator.png";
 import sketchmaze from "./sketch-maze.png";
+import threadsClone from "./threads-clone.png";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tripguide,
   calculator,
   sketchmaze,
+  threadsClone,
 };
