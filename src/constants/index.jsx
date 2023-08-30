@@ -198,7 +198,7 @@ const projects = [
       },
     ],
     image: threadsClone,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
   {
     name: "Sketch-Maze",
@@ -220,7 +220,7 @@ const projects = [
       },
     ],
     image: sketchmaze,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://rafsanzi-ludhi.github.io/SketchMaze/",
   },
   {
     name: "Calculator",
@@ -241,7 +241,7 @@ const projects = [
       },
     ],
     image: calculator,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://rafsanzi-ludhi.github.io/javascript-calculator/",
   },
 ];
 
