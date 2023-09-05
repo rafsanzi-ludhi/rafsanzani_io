@@ -36,7 +36,8 @@
     "reveal": "^0.0.4",
     "rsuite": "^5.37.1",
     "three": "^0.155.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.17",

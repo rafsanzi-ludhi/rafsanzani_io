@@ -6,6 +6,7 @@ import Astronaut from "../assets/astronaut.json";
 
 import Bounce from 'react-reveal/Bounce';
 import Fade from "react-reveal/Fade";
+import Typewriter from "typewriter-effect";
 
 
 
@@ -42,13 +43,18 @@ const Intro = () => {
                 </Bounce>
             )}
 
-            <div className="intro-container">
-                <div className="ut-dialogue">hey there!</div>
-                <span className="ut-dialogue">
-                    <span className="ut-dialogue-name intro-name">Raf</span>
-                    {" here :)"}
-                </span>
+            <div className="intro-container ut-dialogue">
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString("Hey there! ")
+                            .typeString("<br/>")
+                            .typeString('<span class="intro-subtitle intro-name">Raf</span> here :)')
+                            .start();
+                    }}
+                />
             </div>
+               
         </div>
     );
 };
