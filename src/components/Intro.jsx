@@ -49,7 +49,7 @@ const Intro = () => {
                         typewriter
                             .typeString('<span class="">Hey there!</span>')
                             .typeString("<br/>")
-                            .typeString('<span class="intro-subtitle intro-name">Raf</span> <span class="">here :)</span> ')
+                            .typeString('<span class="intro-subtitle intro-name">Raf</span> here :)</span> ')
                             .start();
                     }}
                 />

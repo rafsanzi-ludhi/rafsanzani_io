@@ -71,7 +71,7 @@
     }
 
     .intro-name {
-        font-size: 40px;
+        /* font-size: 40px; */
     }
 
         .lottie-animation {
@@ -85,5 +85,5 @@
             padding-top: 5px;
             font-size: 72px;
             text-align: center;
-git         }
+         }
 }
