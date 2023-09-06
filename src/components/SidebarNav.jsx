@@ -11,8 +11,8 @@ import "../styles/SidebarNav.css";
 const SidebarNav = () => {
   const links = [
     { name: "home", to: "intro" },
-    { name: "about me", to: "about" },
-    { name: "latest projects", to: "projects" },
+    { name: "about-me", to: "about" },
+    { name: "latest-projects", to: "projects" },
     { name: "toolkit", to: "toolkit" },
   ];
 
@@ -40,13 +40,13 @@ const SidebarNav = () => {
 
           <div className="sidebar-logos" href="/">
             <a href="">
-              <EmailIcon style={{ fontSize: 24 }} />
+              <EmailIcon style={{ fontSize: 34 }} />
             </a>
             <a href="">
-              <GitHubIcon style={{ fontSize: 21 }} />
+              <GitHubIcon style={{ fontSize: 34 }} />
             </a>
             <a href="">
-              <LinkedInIcon style={{ fontSize: 24 }} />
+              <LinkedInIcon style={{ fontSize: 34 }} />
             </a>
           </div>
         </Sidenav.Body>
