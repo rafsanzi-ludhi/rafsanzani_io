@@ -45,7 +45,7 @@ const SidebarNav = () => {
             <a href="https://github.com/rafsanzi-ludhi">
               <GitHubIcon style={{ fontSize: 34 }} />
             </a>
-            <a href="www.linkedin.com/in/rafsanzani-l-783168180">
+            <a href="https://www.linkedin.com/in/rafsanzani-l-783168180/">
               <LinkedInIcon style={{ fontSize: 34 }} />
             </a>
           </div>
