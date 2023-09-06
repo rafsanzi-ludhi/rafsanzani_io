@@ -67,7 +67,7 @@
     }
 
     .ut-dialogue {
-        font-size: 40px;
+        /* font-size: 40px; */
     }
 
     .intro-name {
@@ -83,7 +83,6 @@
         .intro-container {
             padding: 15px;
             padding-top: 5px;
-            font-size: 72px;
             text-align: center;
          }
 }
