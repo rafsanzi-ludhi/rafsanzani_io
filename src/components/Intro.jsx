@@ -47,9 +47,9 @@ const Intro = () => {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("Hey there! ")
+                            .typeString('<span class="">Hey there!</span>')
                             .typeString("<br/>")
-                            .typeString('<span class="intro-subtitle intro-name">Raf</span> here :)')
+                            .typeString('<span class="intro-subtitle intro-name">Raf</span> <span class="">here :)</span> ')
                             .start();
                     }}
                 />

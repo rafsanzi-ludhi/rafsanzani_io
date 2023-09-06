@@ -10,7 +10,7 @@ function About() {
 
 
   const one = (
-    <p className="ut-dialogue-1">
+    <p className="ut-dialogue-1 muted-white">
       I am a recent Chemical and Energy Engineering graduate from
       <span className="university-name"> The University of Leeds </span>  
       with a keen interest in software development. 
@@ -19,7 +19,7 @@ function About() {
   );
 
   const two = (
-    <p className="ut-dialogue-1">
+    <p className="ut-dialogue-1 muted-white">
       Outside of my studies, I'm fascinated by Physics and space,
       I love to play video games, hit the gym and watch movies.
 

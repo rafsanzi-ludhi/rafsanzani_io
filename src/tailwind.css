@@ -1,3 +1,11 @@
+.muted-purple {
+  color: #b1aaf8;
+}
+
+.muted-white {
+  color: #dee1e7;
+}
+
 .items-stretch {
   display: flex;
   align-items: stretch;

@@ -198,7 +198,7 @@ const projects = [
       },
     ],
     image: threadsClone,
-    source_code_link: "",
+    source_code_link: "https://github.com/rafsanzi-ludhi/threads-twin",
   },
   {
     name: "Sketch-Maze",
