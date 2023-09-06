@@ -28,7 +28,7 @@ function App() {
           {/* <StarsCanvasSubtle></StarsCanvasSubtle> */}
         </div>
         
-        <SidebarNav></SidebarNav>
+        {/* <SidebarNav></SidebarNav> */}
       </div>
     </Router>
   )
