@@ -39,13 +39,13 @@ const SidebarNav = () => {
           </Nav>
 
           <div className="sidebar-logos" href="/">
-            <a href="">
+            <a href="rafsanzaniludhi@gmail.com">
               <EmailIcon style={{ fontSize: 34 }} />
             </a>
-            <a href="">
+            <a href="https://github.com/rafsanzi-ludhi">
               <GitHubIcon style={{ fontSize: 34 }} />
             </a>
-            <a href="">
+            <a href="www.linkedin.com/in/rafsanzani-l-783168180">
               <LinkedInIcon style={{ fontSize: 34 }} />
             </a>
           </div>
