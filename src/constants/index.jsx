@@ -198,7 +198,7 @@ const projects = [
       },
     ],
     image: threadsClone,
-    source_code_link: "https://github.com/rafsanzi-ludhi/threads-twin",
+    source_code_link: "https://threads-twin-h65z-efpodc4l7-rafsanzi-ludhi.vercel.app/sign-in?redirect_url=https%3A%2F%2Fthreads-twin-h65z-efpodc4l7-rafsanzi-ludhi.vercel.app%2F",
   },
   {
     name: "Sketch-Maze",
