@@ -19,7 +19,7 @@ const toolkitLogos: { component: LogoComponent, id: string, color: string }[] = 
   { component: ReactLogo, id: 'ReactLogo', color: '#222', },
   { component: JsLogo, id: 'JsLogo', color: '#f7df1e' },
   { component: TsLogo, id: 'TsLogo', color: '#3178c6' },
-  { component: NodeLogo, id: 'NodeLogo', color: 'white' },
+  // { component: NodeLogo, id: 'NodeLogo', color: 'white' },
   { component: MongoLogo, id: 'MongoLogo', color: 'white' },
   { component: TailwindLogo, id: 'TailwindLogo', color: 'white' },
 ];
