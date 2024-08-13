@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/About.css";
 import Fade from "react-reveal/Fade";
 import Bounce from 'react-reveal/Bounce';
-import headshot from '../assets/rafsanzani-headshot.jpg'; // Import the image
+import headshot from '../assets/momo-picnic.jpg'; // Import the image
 
 
 
