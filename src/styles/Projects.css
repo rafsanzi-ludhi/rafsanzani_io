@@ -102,16 +102,12 @@ ul {
     font-weight: bold;
 }
 
-
-
 .cards {
     max-width: 360px;
     /* Setting a max width to the default style ensures it never exceeds this width on larger screens */
     width: 100%;
-    margin-bottom: 20px;
-    
+    margin: 15px;
 }
-
 
 @media only screen and (max-width: 600px) {
     #projects {
