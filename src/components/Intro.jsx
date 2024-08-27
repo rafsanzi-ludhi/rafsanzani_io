@@ -3,9 +3,7 @@ import "../Undertale_Stylesheet/undertale.css";
 import "../styles/Intro.css";
 import Lottie from 'react-lottie';
 import Astronaut from "../assets/astronaut.json";
-
 import Bounce from 'react-reveal/Bounce';
-import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
 
 
@@ -54,7 +52,6 @@ const Intro = () => {
                     }}
                 />
             </div>
-               
         </div>
     );
 };

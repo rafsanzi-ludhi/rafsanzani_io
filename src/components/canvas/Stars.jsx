@@ -2,17 +2,14 @@ import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
-import Fade from "rsuite/esm/Animation/Fade";
-import Bounce from 'react-reveal/Bounce';
-
 
 const Stars = (props) => {
   const ref = useRef();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(40000), { radius: 1 }));
+  const [sphere] = useState(() => random.inSphere(new Float32Array(6000), { radius: 1 }));
 
   useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 100;
-    ref.current.rotation.y -= delta / 150;
+    ref.current.rotation.x -= delta / 250;
+    ref.current.rotation.y -= delta / 250;
   });
 
   return (
