@@ -167,9 +167,10 @@ ul {
    
 @media only screen and (max-width: 600px) {
     #toolkit {
-        /* padding-left: unset;
-        padding-right: unset; */
-        /* display: none; */
+        padding-left: unset;
+        padding-right: unset;
+        height: unset;
+        padding-top: 15%;
     }
 
     .jss1 {
