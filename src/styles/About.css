@@ -115,6 +115,12 @@
     .about-para-2 {
         margin-top: 40px;
     }
-}
+    
+    .section-header {
+        font-size: 30px;
+    }
 
-/* Hover effect */
+    .section-right{
+        font-size: 0px;
+    }
+}

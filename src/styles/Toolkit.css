@@ -207,5 +207,13 @@ ul {
             width: 70%; /* Make SVGs smaller on mobile */
             height: 70%;
         }
+
+        .section-header {
+            font-size: 30px;
+        }
+    
+        .section-right{
+            font-size: 0px;
+        }
 }
 
