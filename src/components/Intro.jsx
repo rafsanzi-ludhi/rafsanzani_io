@@ -2,7 +2,7 @@ import React from "react";
 import "../Undertale_Stylesheet/undertale.css";
 import "../styles/Intro.css";
 import Lottie from 'react-lottie';
-import Astronaut from "../assets/astronaut.json";
+import Astronaut from "../assets/theastronaut.json";
 import Bounce from 'react-reveal/Bounce';
 import Typewriter from "typewriter-effect";
 
