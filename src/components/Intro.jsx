@@ -2,13 +2,9 @@ import React from "react";
 import "../Undertale_Stylesheet/undertale.css";
 import "../styles/Intro.css";
 import Lottie from 'react-lottie';
-import Astronaut from "../assets/astronaut.json";
-
+import Astronaut from "../assets/theastronaut.json";
 import Bounce from 'react-reveal/Bounce';
-import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
-
-
 
 const defaultOptions = {
     loop: true,
@@ -34,32 +30,34 @@ const Intro = () => {
 
     return (
         <div id="intro">
-            { (
-                <Bounce duration={1000}>
-                    <Lottie options={defaultOptions}
-                        
-                        className="lottie-animation" 
-                    />
-                </Bounce>
-            )}
-
             <div className="intro-container ut-dialogue">
-                <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .typeString('<span class="">Hey there!</span>')
-                            .typeString("<br/>")
-                            .typeString('<span class="intro-subtitle intro-name">Raf</span> here :)</span> ')
-                            .start();
-                    }}
-                />
+                <Bounce duration={1000}>
+                    <div className="lottie-container">
+                        <Lottie options={defaultOptions} className="lottie-animation" />
+                    </div>
+                </Bounce>
+
+                <div className="dialogue">
+                    <Typewriter
+                        options={{
+                            delay: 85,  // Setting the speed to 85 milliseconds per character
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString('<span class="">Hey there!</span>')
+                                .typeString("<br/>")
+                                .typeString('<span class="intro-subtitle intro-name">Raf</span> here :)</span>')
+                                .callFunction((state) => {
+                                    state.elements.cursor.style.animation = 'none';
+                                    state.elements.cursor.style.opacity = '0';
+                                })
+                                .start();
+                        }}
+                    />
+                </div>
             </div>
-               
         </div>
     );
 };
 
-
 export default Intro;
-
-

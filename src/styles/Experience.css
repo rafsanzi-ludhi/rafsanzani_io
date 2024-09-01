@@ -124,4 +124,12 @@ ul {
     .joblist-job-company {
         font-size: 22px;
     }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .section-right{
+        font-size: 0px;
+    }
 }

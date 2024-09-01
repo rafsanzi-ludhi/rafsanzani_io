@@ -2,26 +2,23 @@ import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
-import Fade from "rsuite/esm/Animation/Fade";
-import Bounce from 'react-reveal/Bounce';
-
 
 const Stars = (props) => {
   const ref = useRef();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(40000), { radius: 1 }));
+  const [sphere] = useState(() => random.inSphere(new Float32Array(10000), { radius: 1 }));
 
   useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 100;
-    ref.current.rotation.y -= delta / 150;
+    ref.current.rotation.x -= delta / 250;
+    ref.current.rotation.y -= delta / 250;
   });
 
   return (
     <group rotation={[0, 0, Math.PI / 3]}>
-      <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
+      <Points ref={ref} positions={sphere} stride={4} frustumCulled {...props}>
         <PointMaterial
           transparent
           color='#f272c8'
-          size={0.0022}
+          size={0.003}
           sizeAttenuation={true}
           depthWrite={false}
         />
@@ -38,7 +35,6 @@ const StarsCanvas = () => {
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>

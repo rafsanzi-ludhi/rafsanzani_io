@@ -52,9 +52,6 @@ li {
     background: #222;
 } */
 
-
-
-
 .skillSection-list ul {
     display: flex;
     justify-content: space-around;
@@ -170,9 +167,10 @@ ul {
    
 @media only screen and (max-width: 600px) {
     #toolkit {
-        /* padding-left: unset;
-        padding-right: unset; */
-        /* display: none; */
+        padding-left: unset;
+        padding-right: unset;
+        height: unset;
+        padding-top: 15%;
     }
 
     .jss1 {
@@ -194,13 +192,28 @@ ul {
         font-size: 22px;
     }
 
-
             .skillSection-top-row li svg,
         .skillSection-bottom-row li svg {
             width: 100%;
             height: 100%;
         }
     
-        
+        .skillSection-list li {
+            width: 80px; /* Adjust the size for mobile */
+            height: 80px;
+        }
+    
+        .skillSection-list svg {
+            width: 70%; /* Make SVGs smaller on mobile */
+            height: 70%;
+        }
+
+        .section-header {
+            font-size: 30px;
+        }
+    
+        .section-right{
+            font-size: 0px;
+        }
 }
 

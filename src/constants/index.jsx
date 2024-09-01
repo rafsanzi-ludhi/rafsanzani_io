@@ -182,7 +182,7 @@ const projects = [
   {
     name: "Threads-Clone",
     description:
-      "A social media application that allows users to post messages, follow other users, and react to posts.",
+      "A social media application that allows users to post and interact in a streamlined interface.",
     tags: [
       {
         name: "react",
@@ -204,7 +204,7 @@ const projects = [
     name: "Sketch-Maze",
     description:
       
-      "An etch-e-sketch game that allows users to draw their own fun designs.",
+      "A digital recreation of the classic etch-e-sketch toy where users can create their own fun designs.",
     tags: [
       {
         name: "html",

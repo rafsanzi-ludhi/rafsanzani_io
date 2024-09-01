@@ -4,10 +4,7 @@ import Fade from "react-reveal/Fade";
 import Bounce from 'react-reveal/Bounce';
 import headshot from '../assets/momo-picnic.jpg'; // Import the image
 
-
-
 function About() {
-
 
   const one = (
     <p className="ut-dialogue-1 muted-white">
